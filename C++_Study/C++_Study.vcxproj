@@ -146,6 +146,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\Hasee\Desktop\源.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Hasee\Desktop\Huffman.h" />
+    <ClInclude Include="C:\Users\Hasee\Desktop\scan.h" />
+    <ClInclude Include="C:\Users\Hasee\Desktop\sort.h" />
+    <ClInclude Include="C:\Users\Hasee\Desktop\TreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
