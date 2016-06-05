@@ -15,23 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Huffman.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="scan.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="sort.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="TreeNode.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>

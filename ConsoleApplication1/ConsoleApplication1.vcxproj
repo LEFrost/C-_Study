@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0FFB6409-8E97-4B38-843A-2FD71E0AA4A0}</ProjectGuid>
+    <ProjectGuid>{593C4B23-0A2D-4635-A824-A7451539F1CD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>C_Study</RootNamespace>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -145,15 +145,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Huffman.h" />
-    <ClInclude Include="scan.h" />
-    <ClInclude Include="sort.h" />
-    <ClInclude Include="TreeNode.h" />
-  </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.cpp" />
   </ItemGroup>
