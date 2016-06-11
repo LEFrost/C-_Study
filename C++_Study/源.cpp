@@ -3,13 +3,13 @@
 using namespace std;
 int main()
 {
-	string ifile("Source core");
-	string ofile("HFM core");
+	string ifile("Source core.txt");
+	string ofile("HFM core.txt");
 	scan a;
 	a.run(ifile);//扫描文件，统计字母频率
 	Huffman b(a.tmp);//建立霍夫曼树
 	b.encode(ifile,ofile);//编码
-	b.decode(ofile,"decode");
+	b.decode(ofile,"decode.txt");
 	system("pause");
 	return 0;
 }
